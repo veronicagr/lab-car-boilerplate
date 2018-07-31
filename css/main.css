@@ -7,7 +7,7 @@ width: 100%;
 }
 
 .banner-taxi{
-background-image: url("../assets/images/taxi1.jpg");
+background-image: url("../assets/images/taxi.jpg");
 height: 120vh;
 width: 100%;
 background-size: cover;
@@ -60,7 +60,7 @@ margin-left: 40px;
 }
 
 .img-conduce{
-background-image:url('../assets/images/conduce2.jpg');
+background-image:url('../assets/images/conduce.jpg');
 background-size: cover;
 background-position: center bottom;
 height: 100vh;
