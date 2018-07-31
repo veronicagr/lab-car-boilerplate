@@ -3,20 +3,21 @@
 .body{
 margin: 0 auto;   
 font-family: 'Raleway', sans-serif;
+width: 100%;
 }
-
-.espace-banner-taxi{
- height: 40em;   
-}
-
 
 .banner-taxi{
-background-image: url("../assets/images/taxi.jpg");
-height: inherit;
+background-image: url("../assets/images/taxi1.jpg");
+height: 120vh;
 width: 100%;
-background-size: 100% 100%;
-background-repeat: no-repeat;
+background-size: cover;
+background-position: center bottom;
 }
+.taxi-text{
+    background-color: #F7B617;
+    color: white;    
+    }
+    
 
 .img-2{
 background-color:#F7B617;   
@@ -56,26 +57,22 @@ margin-right: 100px;
 margin-left: 40px;
 }
 
-.space-conduce{
- height: 30em;   
-}
-
 .img-conduce{
-background-image:url('../assets/images/conduce.jpg');
-background-repeat: no-repeat;
-background-size: 100% 100%;
-height: inherit;
+background-image:url('../assets/images/conduce2.jpg');
+background-size: cover;
+background-position: center bottom;
+height: 100vh;
 width: 100%;
 }
 
 
 .text-conduce{   
  color: white; 
- width: 380px;
+ width: 350px;
 }
 
 .conduce{
-height: 30em;   
+height: 40em;   
 background-color: rgb(62,61,94, 0.3);
 }
 
@@ -94,8 +91,6 @@ color: white;
 background-color: #F7B617;
 height: 30em;    
 }
-
-
 #ingresse-partida , #ingresse-destino{
  width: 20em;  
  background-color: #F7B617;
@@ -132,7 +127,8 @@ padding:40px;
 margin-top: 10px;
 }
 .whit li{
- margin-top: 10px;   
+ margin-top: 10px;
+ list-style-type:none ;
 }
 
 .icones{
@@ -152,3 +148,7 @@ border:1px solid white;
 margin-right: 60px; 
 margin-left: 65px   
 }
+
+
+
+
