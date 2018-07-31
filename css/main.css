@@ -12,12 +12,15 @@ height: 120vh;
 width: 100%;
 background-size: cover;
 background-position: center bottom;
+display: flex;
+justify-content: flex-end;
+align-items: center;
 }
 
 .taxi-text{
-    background-color: #F7B617;
-    color: white;    
-    }
+background-color: #F7B617;
+color: white; 
+}
     
 
 .img-2{
@@ -152,5 +155,31 @@ margin-left: 65px
 }
 
 
+
+@media screen and (max-width: 576px){
+.mapa{
+width: 100px;
+height: 200px;
+margin-left: 70px;
+margin-top: 40px;          
+            } 
+
+.tarifas-mapa{
+ height: 800px;   
+}
+.conduce{
+height: 30em;   
+width: 100%;
+background-color: rgb(62,61,94, 0.3);   
+}
+.whit{
+margin-left:10px; 
+}
+.footer{
+ display: flex;
+ flex-direction: column; 
+ justify-content: center;  
+}
+}
 
 
