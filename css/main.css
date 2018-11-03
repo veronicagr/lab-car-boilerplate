@@ -1,20 +1,20 @@
-/* Los estilos de tu proyecto */
-
 .body{
 margin: 0 auto;   
 font-family: 'Raleway', sans-serif;
-width: 100%;
+padding: 0px;
 }
 
-.banner-taxi{
+.img-nav{
+ height: 50px;   
+} 
+
+ .banner-taxi{
 background-image: url("../assets/images/taxi.jpg");
-height: 120vh;
+height: 100vh;
 width: 100%;
 background-size: cover;
 background-position: center bottom;
-display: flex;
-justify-content: flex-end;
-align-items: center;
+
 }
 
 .taxi-text{
@@ -25,19 +25,19 @@ color: white;
 
 .img-2{
 background-color:#F7B617;   
-height: 30em; 
+height: 100%; 
 }
 
 
-.img-iPhone{
- border-right: 1px solid white;  
- border-top: 1px solid white;  
- border-bottom: 1px solid white;  
- color: white;
+.img-iPhone{  
+border: 1px solid white;    
+color: white;
+margin-bottom: 50px;
 }
+
 
 .phone{
-padding: 20px;   
+padding: 40px;   
 }
 
 
@@ -68,16 +68,18 @@ background-size: cover;
 background-position: center bottom;
 height: 100vh;
 width: 100%;
+
 }
 
 
 .text-conduce{   
  color: white; 
  width: 350px;
+ 
 }
 
 .conduce{
-height: 40em;   
+height: 100vh;   
 background-color: rgb(62,61,94, 0.3);
 }
 
@@ -149,9 +151,7 @@ margin-top: 30px;
 }
 
 .linha{
-border:1px solid white;
-margin-right: 60px; 
-margin-left: 65px   
+border:1px solid white; 
 }
 
 
@@ -163,11 +163,13 @@ height: 200px;
 margin: 40px 0 0 70px ;
 } 
 
+
+
 .tarifas-mapa{
  height: 800px;   
 }
 .conduce{
-height: 30em;   
+height: 100vh;   
 width: 100%;
 background-color: rgb(62,61,94, 0.3);   
 }
@@ -175,10 +177,11 @@ background-color: rgb(62,61,94, 0.3);
 margin-left:10px; 
 }
 .footer{
+ margin-left: 8px;   
  display: flex;
  flex-direction: column; 
  justify-content: center;  
 }
-}
+} 
 
 
